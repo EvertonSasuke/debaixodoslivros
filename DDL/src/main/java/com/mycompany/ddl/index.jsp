@@ -16,10 +16,27 @@
     <html>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-            <title>JSP Page</title>
+            <title>Debaixo dos Livros</title>
         </head>
         <body>
-            <h1><h:outputText value="Hello World!"/></h1>
+            <form name="form" action="Servlet">
+                <label>Nome:</label>
+                <input type="text" name="user">
+                <label>Senha:</label>
+                <input type="password" name="pass">
+                <label>Email:</label>
+                <input type="email" name="email">
+                <label>Data de Nascimento:</label>
+                <input type="date" name="birthdate">
+                <label>Escolha seu Genero</label>
+                <input type="radio" name="gender" value="male">
+                <label>Masculino</label>
+                <input type="radio" name="gender" value="female">
+                <label>Feminino</label>
+                <input type="radio" name="gender" value="other">
+                <label>Outro</label>
+                <input type="submit" value="Enviar">
+            </form>
         </body>
     </html>
 </f:view>
