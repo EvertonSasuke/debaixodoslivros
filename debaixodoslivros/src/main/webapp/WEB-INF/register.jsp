@@ -12,6 +12,7 @@
         <title>Debaixo dos Livros - Registro</title>
     </head>
     <body>
+        
         <form name="form" action="MainServlet">
             <label>Nome:</label>
             <input type="text" name="user">
@@ -29,6 +30,7 @@
             <input type="radio" name="gender" value="other">
             <label for="other">Outro</label>
             <input type="submit" value="Enviar">   
+            
         </form>    
     </body>
 </html>
